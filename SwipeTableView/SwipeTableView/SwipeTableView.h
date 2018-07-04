@@ -45,6 +45,12 @@
 @property (nonatomic, assign) CGFloat swipeHeaderTopInset;
 
 /**
+ *  swipeView顶端headerBar顶部的留白inset，这个属性可以设置顶部导航栏的inset，默认是 0
+ *  当swipeView全屏布局时，可由inset确定headerBar停留时距顶部的距离
+ */
+@property (nonatomic, assign) CGFloat swipeHeaderBarTopInset;
+
+/**
  *  当前itemView的index，在滑动swipeView过程中，index的变化以显示窗口的1/2宽为界限
  */
 @property (nonatomic, readonly) NSInteger currentItemIndex;
